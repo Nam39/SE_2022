@@ -1,0 +1,18 @@
+h1{
+    font-weight:bold !important;
+}
+body{
+    margin-left: 10px !important;
+}
+.table{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+}
+.table > span{
+    border: 1px solid #ddd;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+}

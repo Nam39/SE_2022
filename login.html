@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="login_style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1 id="header" class = "bold">Đăng nhập</h1>
+
+    <form method="post">
+      <div class="form-group">
+        <label for="name" class="control-label">Username</label>
+        <input type="text" name="username" class="form-control" required />
+      </div>
+
+      <div>
+        <label for="pass" class="control-label">Password</label>
+        <input type="password" name="password" class="form-control"/>
+      </div>
+      <input id="submit" type="button" onclick="LogIn(this.form)" value="Login">
+    </form>
+    <div class="grid">
+      <!-- <span>Staff: username=staff, pass=123</span>
+      <span>Student: username=student, pass=123</span>
+      <span>Teacher: username=teacher, pass=123</span> -->
+
+
+      <span>
+
+      </span class="cell">
+      <span class="cell bold">
+        Staff
+      </span>
+      <span class="cell bold">
+        Student
+      </span>
+      <span class="cell bold">
+        Lecturer
+      </span>
+      <span class="cell bold">
+        Username
+      </span>
+      <span class="cell">
+        staff
+      </span>
+      <span class="cell">
+        student
+      </span>
+      <span class="cell">
+        lecturer
+      </span>
+      <span class="cell bold">
+        Password
+      </span>
+      <span class="cell">
+        nam
+      </span>
+      <span class="cell">
+        nam
+      </span>
+      <span class="cell"> 
+        nam
+      </span>
+    </div>
+  </body>
+  <script src="./login.js"></script>
+  </script>
+</html>

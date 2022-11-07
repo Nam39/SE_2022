@@ -1,0 +1,31 @@
+form{
+    width: 20%;
+}
+body{
+    margin-left: 10px !important;
+}
+#submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:  10% 10% 10% 10%;
+    gap: 0;
+}
+.cell{
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#submit{
+    border: none;
+    background-color: rgb(46, 169, 226); 
+    color: white;
+    width: 70px;
+    height: 32px;
+    border-radius: 8%;
+}
+.bold{
+    font-weight: bold !important;
+}
+

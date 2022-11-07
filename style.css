@@ -1,0 +1,29 @@
+.margin{
+    margin-left: 10px;
+}
+td{
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd !important;
+}
+th{
+    text-align: center !important;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd !important;
+    border-top: 2px solid #ddd !important;
+}
+.add{
+    margin-left: 2.5%;
+}
+.btn{
+    background-color: rgb(162, 60, 56) !important;
+    color: white !important;
+}
+.h1{
+    font-weight: bold !important;
+}
+table{
+    width: 95% !important;
+    margin: auto;
+}
